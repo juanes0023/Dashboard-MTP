@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Mileage Tracker Pro Dashboard Launcher
+# Simple script to run the dashboard with proper environment setup
+
+echo "🚗 Starting Mileage Tracker Pro Dashboard..."
+echo "=============================================="
+
+# Check if we're in the right directory
+if [ ! -f "dashboard.py" ]; then
+    echo "❌ Error: dashboard.py not found. Please run this script from the Dashboard-MTP directory."
+    exit 1
+fi
+
+# Check if virtual environment exists
+if [ ! -d "venv" ]; then
+    echo "⚠️  Virtual environment not found. Creating one..."
+    python3 -m venv venv
+    echo "📦 Installing dependencies..."
+    source venv/bin/activate
+    pip install -r requirements.txt
+else
+    echo "✅ Virtual environment found."
+fi
+
+# Activate virtual environment
+echo "🔧 Activating virtual environment..."
+source venv/bin/activate
+
+# Check if .env file exists
+if [ ! -f ".env" ]; then
+    echo "⚠️  Warning: .env file not found. Please create one with your Supabase credentials:"
+    echo "   SUPABASE_URL=your_supabase_url"
+    echo "   SUPABASE_KEY=your_supabase_anon_key"
+    echo ""
+    echo "Continuing anyway..."
+fi
+
+# Start the dashboard
+echo "🚀 Launching dashboard..."
+echo "📱 Dashboard will be available at: http://localhost:8501"
+echo "🌐 Network access: http://192.168.x.x:8501"
+echo ""
+echo "Press Ctrl+C to stop the dashboard"
+echo "=============================================="
+
+streamlit run dashboard.py
